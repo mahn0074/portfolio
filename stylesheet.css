@@ -2,15 +2,14 @@ body {
     margin: 0;
     background-color: #41484c;
     width: 100%;
-    background-repeat: no-repeat;
-
 }
 
 h1 {
     font-family: 'Alegreya', serif;
     font-size: 7em;
     font-weight: 800;
-    color: #fad39f;
+    color: #d3b58e;
+    padding-top: 50px;
 
 }
 
@@ -23,6 +22,7 @@ h3 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
+/*    color: #0c1e2a;*/
 }
 
 /* <!----DROPDOWN MENU START ---->*/
@@ -63,14 +63,7 @@ a:hover {
 
 /* <!----DROPDOWN MENU SLUT ---->*/
 
-#overskrift img {
-    width: 100%;
-
-}
-
-#overskrift h1 {
-    margin: 40px;
-}
+/*----------Portfolio START----------*/
 
 .webdesign,
 .animation,
@@ -84,10 +77,19 @@ a:hover {
     background-image: url(img/Shape.png);
     background-size: 2%;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
+}
 
+#baggrund1 {
+    background-image: url(img/IMG2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 70vw;
+    text-align: center;
 
 }
+
+/*----------Portfolio SLUT----------*/
 
 /* <!----WEBDESIGN START ---->*/
 
@@ -111,7 +113,7 @@ a:hover {
     background-image: url(img/IMG3.jpg);
     background-size: cover;
     width: 100vw;
-    height: 500px;
+    height: 70vw;
     text-align: center;
 
 }
@@ -227,27 +229,51 @@ a:hover {
     text-align: center;
 }
 
+/*
+#ux h2 {
+    color: #0c1e2a;
+}
+*/
+
+#ux a:hover {
+    color: #671323;
+}
+
 .kea_skema {
-    background-color: rgba(95, 158, 160, 0.76);
+    background-color: #847e72;
+    background-image: url(img/Shape3.png);
+    background-size: 2%;
     padding: 20px;
 
 }
 
 .proces6 {
-    background-color: rgba(95, 158, 160, 0.76);
+    background-color: #82321b;
     padding: 20px;
 
 }
 
 .republiken {
-    background-color: rgba(0, 100, 0, 0.54);
+    background-color: #cecac1;
     padding: 20px;
+    background-image: url(img/Shape3.png);
+    background-size: 30%;
 
 }
 
 .proces7 {
-    background-color: rgba(0, 100, 0, 0.54);
+    background-color: #671323;
     padding: 20px;
+
+}
+
+#baggrund3 {
+    background-image: url(img/IMG6.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 70vw;
+    text-align: center;
+
 
 }
 
