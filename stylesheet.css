@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    background-color: #41484c;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 7em;
+    font-weight: 800;
+    color: #fad39f;
+
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+}
+
+/* <!----DROPDOWN MENU START ---->*/
+
+a {
+    text-decoration: none;
+    color: #693e3e;
+    transition: color 0.3s ease;
+    padding: 20px;
+}
+
+a:hover {
+    color: rgba(145, 204, 201, 0.99);
+}
+
+.navigation {
+    position: fixed;
+    background: rgba(226, 223, 223, 0.71);
+    width: 100vw;
+    padding: 40px;
+    z-index: 100;
+}
+
+.navigation nav {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 2vw 0 0;
+}
+
+.navigation nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 50px;
+    display: block;
+
+}
+
+
+/* <!----DROPDOWN MENU SLUT ---->*/
+
+#overskrift img {
+    width: 100%;
+
+}
+
+#overskrift h1 {
+    margin: 40px;
+}
+
+.webdesign,
+.animation,
+.video,
+.ux {
+    flex-grow: 1;
+    flex-basis: 350px;
+    font-size: 1.2em;
+    padding: 20px 0px;
+    background-color: rgba(145, 204, 201, 0.82);
+    background-image: url(img/Shape.png);
+    background-size: 2%;
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+/* <!----WEBDESIGN START ---->*/
+
+#web {
+    margin: 0;
+    background-color: rgba(171, 252, 243, 0.17);
+    padding: 20px;
+    /*
+    background-image: url(img/IMG3.jpg);
+    background-size: cover;
+*/
+    text-align: center;
+}
+
+#web a:hover {
+    color: rgba(208, 59, 24, 0.81);
+}
+
+
+#baggrund {
+    background-image: url(img/IMG3.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+
+}
+
+#baggrund h1 {
+
+    padding-top: 50px;
+
+
+}
+
+.arts_and_crafts {
+    padding: 20px;
+    background-color: rgba(154, 142, 245, 0.29);
+    background-image: url(img/IMG3-assets/Shape.png);
+    background-size: 1%;
+
+
+}
+
+.proces {
+    padding: 20px;
+    background-color: rgba(131, 164, 80, 0.87);
+    background-image: url(img/IMG3-assets/Shape.png);
+    background-size: 19%;
+
+
+}
+
+#web .column_tekst {
+    background-color: #e8fafa;
+
+
+}
+
+/* <!----WEBDESIGN SLUT---->*/
+
+/* <!----ANIMATION START ---->*/
+
+#animation {
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.en_pige_med_fisk {
+    background-color: #cdc6c0;
+    padding: 20px;
+    background-image: url(img/linjer.svg);
+    background-size: 20%;
+}
+
+.proces1 {
+    background-color: rgba(242, 197, 143, 0.89);
+    padding: 20px;
+    background-image: url(img/linjer.svg);
+    background-size: 150%;
+
+}
+
+.sex_og_samfund {
+    background-color: #cdc6c0;
+    padding: 20px;
+    background-image: url(img/linjer.svg);
+    background-size: 20%;
+}
+
+.proces2 {
+    background-color: rgba(242, 197, 143, 0.89);
+    padding: 20px;
+    background-image: url(img/linjer.svg);
+    background-size: 150%;
+}
+
+
+/* <!----ANIMATION SLUT ---->*/
+
+/* <!----VIDEO START ---->*/
+
+#video {
+    padding: 20px;
+    text-align: center;
+}
+
+.virksomhed {}
+
+.cph_dox {}
+
+.proces3 {}
+
+.proces4 {}
+
+.redesignprojekt {
+
+    background-color: rgba(145, 204, 201, 0.82);
+    padding: 20px;
+}
+
+.proces5 {
+    background-color: rgba(242, 197, 143, 0.89);
+    padding: 20px;
+
+}
+
+/* <!----VIDEO SLUT ---->*/
+
+/* <!----UX START ---->*/
+
+#ux {
+    padding: 20px;
+    text-align: center;
+}
+
+.kea_skema {
+    background-color: rgba(95, 158, 160, 0.76);
+    padding: 20px;
+
+}
+
+.proces6 {
+    background-color: rgba(95, 158, 160, 0.76);
+    padding: 20px;
+
+}
+
+.republiken {
+    background-color: rgba(0, 100, 0, 0.54);
+    padding: 20px;
+
+}
+
+.proces7 {
+    background-color: rgba(0, 100, 0, 0.54);
+    padding: 20px;
+
+}
+
+/* <!----UX SLUT ---->*/
