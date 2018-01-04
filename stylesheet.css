@@ -21,8 +21,8 @@ h3 {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 4em;
-/*    color: #0c1e2a;*/
+    font-size: 3em;
+    /*    color: #0c1e2a;*/
 }
 
 /* <!----DROPDOWN MENU START ---->*/
@@ -55,10 +55,21 @@ a:hover {
 .navigation nav a {
     text-decoration: none;
     color: #ffffff;
-    padding-left: 50px;
+    padding-left: 70px;
     display: block;
+}
+
+.navigation img {
+    /*    border-radius: 40px;*/
+    width: 5%;
+    background-color: rgba(255, 228, 196, 0.52);
 
 }
+
+.navigation img:hover {
+    width: 6%;
+}
+
 
 
 /* <!----DROPDOWN MENU SLUT ---->*/
@@ -157,7 +168,14 @@ a:hover {
     background-size: cover;
     padding: 20px;
     text-align: center;
+}
 
+#bagrund4 {
+    background-image: url(img/face.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70vw;
+    text-align: center;
 
 }
 
@@ -200,6 +218,11 @@ a:hover {
     text-align: center;
 }
 
+#bagrund2 {
+    text-align: center;
+
+}
+
 .virksomhed {}
 
 .cph_dox {}
@@ -229,11 +252,9 @@ a:hover {
     text-align: center;
 }
 
-/*
-#ux h2 {
+#ux a {
     color: #0c1e2a;
 }
-*/
 
 #ux a:hover {
     color: #671323;
@@ -262,7 +283,7 @@ a:hover {
 }
 
 .proces7 {
-    background-color: #671323;
+    background-color: #82321b;
     padding: 20px;
 
 }
