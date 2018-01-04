@@ -145,6 +145,11 @@ a:hover {
 
 }
 
+.arts_and_crafts img {
+    width: 10%;
+
+}
+
 .proces {
     padding: 20px;
     background-color: rgba(131, 164, 80, 0.87);
@@ -186,6 +191,10 @@ a:hover {
     background-size: 20%;
 }
 
+.en_pige_med_fisk img {
+    width: 80%
+}
+
 .proces1 {
     background-color: rgba(242, 197, 143, 0.89);
     padding: 20px;
@@ -201,6 +210,10 @@ a:hover {
     background-size: 20%;
 }
 
+.sex_og_samfund img {
+    width: 60%
+}
+
 .proces2 {
     background-color: rgba(242, 197, 143, 0.89);
     padding: 20px;
@@ -208,6 +221,13 @@ a:hover {
     background-size: 150%;
 }
 
+#animation a:hover {
+    color: #932309;
+}
+
+#animation a {
+    color: #264e6c;
+}
 
 /* <!----ANIMATION SLUT ---->*/
 
@@ -235,6 +255,11 @@ a:hover {
 
     background-color: rgba(145, 204, 201, 0.82);
     padding: 20px;
+}
+
+.redesignprojekt img {
+    width: 15%;
+
 }
 
 .proces5 {
@@ -268,6 +293,11 @@ a:hover {
 
 }
 
+.kea_skema img {
+    width: 15%;
+
+}
+
 .proces6 {
     background-color: #82321b;
     padding: 20px;
@@ -280,6 +310,10 @@ a:hover {
     background-image: url(img/Shape3.png);
     background-size: 30%;
 
+}
+
+.republiken img {
+    width: 15%;
 }
 
 .proces7 {
