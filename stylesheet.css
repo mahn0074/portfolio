@@ -8,7 +8,7 @@ h1 {
     font-family: 'Alegreya', serif;
     font-size: 7em;
     font-weight: 800;
-    color: #d3b58e;
+    color: rgba(72, 92, 89, 0.76);
     padding-top: 50px;
 
 
@@ -23,7 +23,7 @@ h3 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
-    /*    color: #0c1e2a;*/
+
 }
 
 h4 {
@@ -37,45 +37,51 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #693e3e;
+    color: #433f3c;
     transition: color 0.3s ease;
     padding: 20px;
 }
 
 a:hover {
-    color: rgba(145, 204, 201, 0.99);
+    color: rgba(162, 59, 4, 0.99);
+
 }
 
 .navigation {
     position: fixed;
     background: rgba(226, 223, 223, 0.71);
-    width: 100vw;
+    width: 65vw;
     padding: 40px;
+    border-radius: 50px 0px 100px 0px;
     z-index: 100;
-}
-
-.navigation nav {
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
-    margin: 0 2vw 0 0;
 }
 
 .navigation nav a {
-    text-decoration: none;
-    color: #ffffff;
     padding-left: 70px;
-    display: inline-flex;
+    display: inline-block;
+
+}
+
+.navigation a:hover {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgba(250, 198, 115, 0.42);
+    background-repeat: no-repeat;
+    background-size: 30%;
 }
 
 .navigation img {
-    /*    border-radius: 40px;*/
-    width: 5%;
+    width: 9vw;
     background-color: rgba(255, 228, 196, 0.52);
+    box-sizing: content-box;
 
 }
 
 .navigation img:hover {
-    width: 6%;
+    width: 11vw;
 }
 
 
@@ -92,25 +98,27 @@ a:hover {
     flex-basis: 350px;
     font-size: 1.2em;
     padding: 20px 0px;
-    background-color: rgba(145, 204, 201, 0.82);
+    background-color: rgba(252, 244, 234, 0.95);
     background-image: url(img/Shape.png);
     background-size: 2%;
     text-align: center;
     margin: 15px;
-    box-shadow: 0px 0px 4px 5px rgba(145, 204, 201, 0.67);
+    box-shadow: 0px 0px 2px 3px rgba(204, 209, 209, 0.67);
 
 }
 
 #baggrund1 {
-    background-image: url(img/IMG2.jpg);
-    background-size: cover;
-    width: 100vw;
-    height: 70vw;
-    text-align: center;
-    box-shadow: 0px 0px 4px 5px rgba(145, 204, 201, 0.67);
+
+    background-image: url(img/Mahna.png);
+    background-color: rgba(252, 244, 234, 0.95);
+    height: 40vw;
+    padding-top: 8px;
+    padding-left: 20px;
+    background-repeat: round;
 
 
 }
+
 
 /*----------Portfolio SLUT----------*/
 
@@ -134,16 +142,17 @@ a:hover {
     width: 100vw;
     height: 70vw;
     text-align: center;
-    box-shadow: 0px 0px 3px 5px rgba(159, 204, 145, 0.67);
-
-
+    /*    box-shadow: 0px 0px 2px 3px rgba(159, 204, 145, 0.67);*/
 }
 
 #baggrund h1 {
+    padding-top: 0;
+}
 
-    padding-top: 50px;
-
-
+#baggrund img {
+    width: 0vw;
+    padding-top: 8px;
+    padding-right: 85vw;
 }
 
 .arts_and_crafts {
@@ -151,16 +160,13 @@ a:hover {
     background-color: rgba(154, 142, 245, 0.29);
     background-image: url(img/IMG3-assets/Shape.png);
     background-size: 1%;
-    box-shadow: 0px 0px 3px 5px rgba(159, 204, 145, 0.67);
-
-
-
+    box-shadow: 0px 0px 2px 3px rgba(159, 204, 145, 0.67);
+    margin: 10px 0px 20px 0px;
 
 }
 
 .arts_and_crafts img {
     width: 10%;
-
 }
 
 .proces {
@@ -168,17 +174,10 @@ a:hover {
     background-color: rgba(131, 164, 80, 0.87);
     background-image: url(img/IMG3-assets/Shape.png);
     background-size: 19%;
-    box-shadow: 0px 0px 3px 5px rgba(159, 204, 145, 0.67);
-
-
+    box-shadow: 0px 0px 2px 3px rgba(159, 204, 145, 0.67);
 }
 
-#web .column_tekst {
-    background-color: rgba(221, 224, 224, 0.79);
-    box-shadow: 0px 0px 3px 5px rgba(159, 204, 145, 0.67);
-}
-
-#web.column1 {
+#web .column1 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -188,10 +187,10 @@ a:hover {
     flex-basis: 350px;
     background-color: rgba(250, 245, 227, 0.92);
     margin: 0px 20px 0px 0px;
-    box-shadow: 0px 0px 3px 5px rgba(159, 204, 145, 0.67);
+    box-shadow: 0px 0px 2px 3px rgba(159, 204, 145, 0.67);
+    padding: 20px;
 
 }
-
 
 /* <!----WEBDESIGN SLUT---->*/
 
@@ -201,7 +200,6 @@ a:hover {
     background-size: cover;
     padding: 20px;
     text-align: center;
-
 }
 
 #bagrund4 {
@@ -210,18 +208,22 @@ a:hover {
     width: 100%;
     height: 70vw;
     text-align: center;
-    box-shadow: 0px 0px 3px 5px rgba(204, 202, 145, 0.67);
+    /*    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);*/
+}
 
+#bagrund4 img {
+    width: 0vw;
+    padding-top: 8px;
+    padding-right: 85vw;
 }
 
 .en_pige_med_fisk {
     background-color: rgba(250, 245, 227, 0.92);
-
     background-image: url(img/linjer.svg);
     background-size: 20%;
     margin-top: 20px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 3px 5px rgba(204, 202, 145, 0.67);
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 }
 
 .en_pige_med_fisk img {
@@ -233,7 +235,7 @@ a:hover {
     padding: 20px;
     background-image: url(img/linjer.svg);
     background-size: 150%;
-    box-shadow: 0px 0px 3px 5px rgba(204, 202, 145, 0.67);
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 
 }
 
@@ -244,7 +246,7 @@ a:hover {
     background-size: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 3px 5px rgba(204, 202, 145, 0.67);
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 }
 
 .sex_og_samfund img {
@@ -256,7 +258,7 @@ a:hover {
     padding: 20px;
     background-image: url(img/linjer.svg);
     background-size: 150%;
-    box-shadow: 0px 0px 3px 5px rgba(204, 202, 145, 0.67);
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 }
 
 #animation a:hover {
@@ -267,7 +269,7 @@ a:hover {
     color: #264e6c;
 }
 
-.column1 {
+.column5 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -277,7 +279,8 @@ a:hover {
     flex-basis: 350px;
     background-color: rgba(250, 245, 227, 0.92);
     margin: 0px 20px 0px 0px;
-    box-shadow: 0px 0px 3px 5px rgba(204, 202, 145, 0.67);
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
+    padding: 20px;
 
 }
 
@@ -290,10 +293,21 @@ a:hover {
     text-align: center;
 }
 
-#bagrund2 {
+#baggrund2 {
+    background-image: url(img/IMG2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 70vw;
     text-align: center;
-
+    /*    box-shadow: 0px 0px 2px 3px rgba(145, 204, 201, 0.67);*/
 }
+
+#baggrund2 img {
+    padding-top: 8px;
+    padding-right: 85vw;
+    width: 0vw;
+}
+
 
 .virksomhed {
     background-color: rgba(94, 159, 155, 0.82);
@@ -302,6 +316,7 @@ a:hover {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
 
 }
 
@@ -310,11 +325,9 @@ a:hover {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
 }
 
-.proces3 {}
-
-.proces4 {}
 
 .redesignprojekt {
     background-image: url(img/indk%C3%B8bsvogn.svg);
@@ -323,6 +336,7 @@ a:hover {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
 }
 
 .redesignprojekt img {
@@ -332,6 +346,22 @@ a:hover {
 
 .proces5 {
     background-color: rgba(242, 197, 143, 0.89);
+    padding: 20px;
+    box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
+
+}
+
+.column6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#video .column_tekst {
+    flex-grow: 1;
+    flex-basis: 350px;
+    background-color: rgba(250, 245, 227, 0.92);
+    margin: 0px 20px 0px 0px;
+    box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
     padding: 20px;
 
 }
@@ -354,12 +384,13 @@ a:hover {
 }
 
 .kea_skema {
-    background-color: #847e72;
+    background-color: #cecac1;
     background-image: url(img/Shape3.png);
     background-size: 5%;
     padding: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 
 }
 
@@ -371,6 +402,7 @@ a:hover {
 .proces6 {
     background-color: #82321b;
     padding: 20px;
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 
 }
 
@@ -380,7 +412,8 @@ a:hover {
     background-image: url(img/Shape3.png);
     background-size: 30%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 
 }
 
@@ -388,11 +421,6 @@ a:hover {
     width: 15%;
 }
 
-.proces7 {
-    background-color: #82321b;
-    padding: 20px;
-
-}
 
 #baggrund3 {
     background-image: url(img/IMG6.jpg);
@@ -401,7 +429,29 @@ a:hover {
     height: 70vw;
     text-align: center;
 
+}
+
+#baggrund3 img {
+    padding-top: 8px;
+    padding-right: 85vw;
+    width: 0vw;
+}
+
+.column7 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ux .column_tekst {
+    flex-grow: 1;
+    flex-basis: 350px;
+    background-color: rgba(250, 245, 227, 0.92);
+    margin: 0px 20px 0px 0px;
+    box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
+    padding: 20px;
 
 }
+
+
 
 /* <!----UX SLUT ---->*/
