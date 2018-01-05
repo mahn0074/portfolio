@@ -133,11 +133,9 @@ a:hover {
     color: rgba(208, 59, 24, 0.81);
 }
 
-
-#baggrund {
+#baggrund img {
     width: 100vw;
     height: 60vw;
-    text-align: center;
 }
 
 #baggrund .content {
@@ -147,11 +145,8 @@ a:hover {
     transform: translate(-50%, -50%);
     background: rgba(211, 209, 209, 0.5);
     width: 100%;
+    text-align: center;
 
-}
-
-#baggrund img {
-    width: 100vw;
 }
 
 .arts_and_crafts {
@@ -201,10 +196,9 @@ a:hover {
     text-align: center;
 }
 
-
-#bagrund4 {
-    text-align: center;
-
+#bagrund4 img {
+    width: 100vw;
+    height: 60vw;
 }
 
 #bagrund4 .content {
@@ -214,7 +208,7 @@ a:hover {
     transform: translate(-50%, -50%);
     background: rgba(211, 209, 209, 0.5);
     width: 100%;
-
+    text-align: center;
 }
 
 .en_pige_med_fisk {
@@ -288,10 +282,10 @@ a:hover {
     text-align: center;
 }
 
-#baggrund2 {
+#baggrund2 img {
     width: 100vw;
     height: 65vw;
-    text-align: center;
+
 }
 
 #baggrund2 .content {
@@ -301,6 +295,7 @@ a:hover {
     transform: translate(-50%, -50%);
     background: rgba(211, 209, 209, 0.5);
     width: 100%;
+    text-align: center;
 
 }
 
@@ -309,6 +304,7 @@ a:hover {
     background-color: rgba(94, 159, 155, 0.82);
     background-image: url(img/indk%C3%B8bsvogn.svg);
     background-size: 2%;
+
 
 }
 
@@ -326,7 +322,7 @@ a:hover {
     background-size: 7%;
     background-color: rgba(145, 204, 201, 0.82);
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
 }
@@ -417,13 +413,6 @@ a:hover {
 }
 
 
-#baggrund3 {
-    width: 100vw;
-    height: 65vw;
-    text-align: center;
-
-}
-
 #baggrund3 .content {
     position: absolute;
     top: 50%;
@@ -431,10 +420,12 @@ a:hover {
     transform: translate(-50%, -50%);
     background: rgba(211, 209, 209, 0.5);
     width: 100%;
+    text-align: center;
 }
 
 #baggrund3 img {
-    width: 0vw;
+    width: 100vw;
+    height: 65vw;
 }
 
 .column7 {
