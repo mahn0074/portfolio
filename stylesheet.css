@@ -214,10 +214,11 @@ a:hover {
 .en_pige_med_fisk {
     background-color: rgba(250, 245, 227, 0.92);
     background-image: url(img/fish.svg);
-    background-size: 3%;
+    background-size: 2%;
     margin-top: 20px;
     margin-bottom: 10px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
+    /*     background: linear-gradient(-80deg, #c3c3d6, #c8e8e8);*/
 }
 
 .en_pige_med_fisk img {
