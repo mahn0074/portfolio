@@ -82,8 +82,6 @@ a:hover {
     width: 11vw;
 }
 
-
-
 /* <!----DROPDOWN MENU SLUT ---->*/
 
 /*----------Portfolio START----------*/
@@ -102,7 +100,6 @@ a:hover {
     text-align: center;
     margin: 15px;
     box-shadow: 0px 0px 2px 3px rgba(204, 209, 209, 0.67);
-
 }
 
 #baggrund1 {
@@ -113,8 +110,17 @@ a:hover {
     padding-top: 8px;
     padding-left: 20px;
     background-repeat: round;
+}
 
+#hovedmenu {
+    display: flex;
+    flex-wrap: wrap;
 
+}
+
+#hovedmenu .column {
+    flex-grow: 1;
+    flex-basis: 350px;
 }
 
 
@@ -444,6 +450,20 @@ a:hover {
 
 }
 
-
-
 /* <!----UX SLUT ---->*/
+
+/* <!----FOOTER  ---->*/
+
+.footer img {
+    width: 10%;
+    border-radius: 50%;
+    margin-top: 3%;
+
+}
+
+.footer {
+    padding-left: 10%;
+    background-color: rgba(252, 244, 234, 0.95);
+    margin: 2vw;
+
+}
