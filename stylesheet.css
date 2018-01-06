@@ -86,9 +86,9 @@ a:hover {
 
 /*----------Portfolio START----------*/
 
-.design,
-.anim,
-.vid,
+.webdesign,
+.animation,
+.video,
 .userx {
     flex-grow: 1;
     flex-basis: 350px;
@@ -123,6 +123,40 @@ a:hover {
     flex-basis: 350px;
 }
 
+.video a:hover {
+    background-image: url(img/dropblaa_rund.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    display: inline-block;
+
+
+
+}
+
+.animation a:hover {
+    background-image: url(img/a3.svg);
+    background-repeat: no-repeat;
+    width: 8%;
+    display: inline-block;
+}
+
+.webdesign a:hover {
+    background-image: url(img/ikon260.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    display: inline-block;
+
+}
+
+.userx a:hover {
+    background-image: url(img/apple-touch-icon.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    display: inline-block;
+
+
+
+}
 
 /*----------Portfolio SLUT----------*/
 
