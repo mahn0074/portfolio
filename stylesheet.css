@@ -357,10 +357,12 @@ a:hover {
 .proces5 {
     background-image: url(img/indk%C3%B8bsvogn.svg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position:center;
     background-color: rgba(242, 197, 143, 0.89);
     padding: 20px;
     box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
+    background-size: 70%;
+
 
 }
 
