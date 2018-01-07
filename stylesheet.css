@@ -254,13 +254,13 @@ a:hover {
 }
 
 .sex_og_samfund {
-    background-color: rgba(250, 245, 227, 0.92);
+    background-color: rgba(239, 109, 78, 0.89);
 
     background-image: url(img/a7.svg);
     background-repeat: no-repeat;
     background-position: left;
     padding: 20px;
-    background-size: 40%;
+    background-size: 27%;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
@@ -357,7 +357,7 @@ a:hover {
 .proces5 {
     background-image: url(img/indk%C3%B8bsvogn.svg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-color: rgba(242, 197, 143, 0.89);
     padding: 20px;
     box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
@@ -480,6 +480,6 @@ a:hover {
 
 .footer {
     padding-left: 20px;
-    background-color: rgba(252, 244, 234, 0.95);
+    background-color: rgba(127, 120, 115, 0.95);
     margin: 10px;
 }
