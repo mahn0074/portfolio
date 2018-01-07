@@ -468,13 +468,26 @@ a:hover {
 /* <!----FOOTER  ---->*/
 
 .footer img {
-    width: 10%;
+    width: 17vw;
+    height: 17vw;
+
     border-radius: 50%;
-    margin-top: 3%;
+    padding: 10px;
+
+
 }
 
 .footer {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 20px;
     background-color: rgba(127, 120, 115, 0.95);
     margin: 10px;
+}
+
+.navn {
+    flex-grow: 1;
+    flex-basis: 350px;
+    padding: 0px 10px 10px 10px;
+    background-color: rgba(252, 244, 234, 0.34);
 }
