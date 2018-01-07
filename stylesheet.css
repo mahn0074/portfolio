@@ -102,7 +102,7 @@ a:hover {
     padding: 20px 0px;
     background-color: rgba(252, 244, 234, 0.95);
     background-image: url(img/Shape.png);
-    background-size: 2%;
+    background-size: 4%;
     text-align: center;
     margin: 15px;
     box-shadow: 0px 0px 2px 3px rgba(204, 209, 209, 0.67);
@@ -232,6 +232,7 @@ a:hover {
     background-size: 2%;
     margin-bottom: 20px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
+    padding: 20px;
 }
 
 .en_pige_med_fisk img {
@@ -248,11 +249,12 @@ a:hover {
 .sex_og_samfund {
     background-color: rgba(239, 109, 78, 0.89);
 
-    background-image: url(img/a7.svg);
+    background-image: url(img/a4.svg);
     background-repeat: no-repeat;
     background-position: left;
-    padding: 20px;
-    background-size: 27%;
+
+
+    background-size: 16%;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
@@ -407,7 +409,7 @@ a:hover {
 }
 
 .proces6 {
-    background-color: #82321b;
+    background-color: rgba(144, 72, 45, 0.95);
     padding: 20px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 
@@ -417,6 +419,7 @@ a:hover {
     background-color: #cecac1;
     padding: 20px;
     background-image: url(img/Shape3.png);
+
     background-size: 30%;
     margin-top: 10px;
     margin-bottom: 20px;
