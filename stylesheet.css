@@ -30,6 +30,12 @@ h4 {
     font-weight: 400;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
 
 /* <!----DROPDOWN MENU START ---->*/
 
@@ -123,40 +129,6 @@ a:hover {
     flex-basis: 350px;
 }
 
-.video a:hover {
-    background-image: url(img/dropblaa_rund.svg);
-    background-repeat: no-repeat;
-    background-size: 40%;
-    display: inline-block;
-
-
-
-}
-
-.animation a:hover {
-    background-image: url(img/a3.svg);
-    background-repeat: no-repeat;
-    width: 8%;
-    display: inline-block;
-}
-
-.webdesign a:hover {
-    background-image: url(img/ikon260.png);
-    background-repeat: no-repeat;
-    background-size: 30%;
-    display: inline-block;
-
-}
-
-.userx a:hover {
-    background-image: url(img/apple-touch-icon.png);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    display: inline-block;
-
-
-
-}
 
 /*----------Portfolio SLUT----------*/
 
@@ -192,10 +164,10 @@ a:hover {
 .arts_and_crafts {
     padding: 20px;
     background-color: rgba(154, 142, 245, 0.29);
-    background-image: url(img/IMG3-assets/Shape.png);
+    background-image: url(img/Shape1.png);
     background-size: 1%;
     box-shadow: 0px 0px 2px 3px rgba(159, 204, 145, 0.67);
-    margin: 10px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 
 }
 
@@ -223,6 +195,7 @@ a:hover {
     margin: 0px 20px 0px 0px;
     box-shadow: 0px 0px 2px 3px rgba(159, 204, 145, 0.67);
     padding: 20px;
+    text-align: left;
 
 }
 
@@ -236,12 +209,13 @@ a:hover {
     text-align: center;
 }
 
-#bagrund4 img {
+#background img {
     width: 100vw;
     height: 60vw;
+    background-size: cover;
 }
 
-#bagrund4 .content {
+#background .content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -255,10 +229,8 @@ a:hover {
     background-color: rgba(250, 245, 227, 0.92);
     background-image: url(img/fish.svg);
     background-size: 2%;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
-    /*     background: linear-gradient(-80deg, #c3c3d6, #c8e8e8);*/
 }
 
 .en_pige_med_fisk img {
@@ -266,7 +238,7 @@ a:hover {
 }
 
 .proces1 {
-    background-color: rgba(242, 197, 143, 0.89);
+    background-color: rgba(239, 109, 78, 0.89);
     padding: 20px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
     margin: 0px 0px 20px 0px
@@ -275,11 +247,11 @@ a:hover {
 .sex_og_samfund {
     background-color: rgba(250, 245, 227, 0.92);
 
-    background-image: url(img/a4.svg);
+    background-image: url(img/a7.svg);
     background-repeat: no-repeat;
     background-position: left;
     padding: 20px;
-    background-size: 20%;
+    background-size: 40%;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
@@ -311,6 +283,7 @@ a:hover {
     margin: 0px 20px 20px 0px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
     padding: 20px;
+    text-align: left;
 
 }
 
@@ -363,8 +336,7 @@ a:hover {
     background-size: 7%;
     background-color: rgba(145, 204, 201, 0.82);
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
 }
 
@@ -395,6 +367,7 @@ a:hover {
     margin: 0px 20px 0px 0px;
     box-shadow: 0px 0px 2px 3px rgba(145, 204, 193, 0.6);
     padding: 20px;
+    text-align: left;
 
 }
 
@@ -420,7 +393,6 @@ a:hover {
     background-image: url(img/Shape3.png);
     background-size: 5%;
     padding: 20px;
-    margin-top: 10px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
 
@@ -481,6 +453,7 @@ a:hover {
     margin: 0px 20px 0px 0px;
     box-shadow: 0px 0px 2px 3px rgba(204, 202, 145, 0.67);
     padding: 20px;
+    text-align: left;
 
 }
 
@@ -492,12 +465,10 @@ a:hover {
     width: 10%;
     border-radius: 50%;
     margin-top: 3%;
-
 }
 
 .footer {
-    padding-left: 10%;
+    padding-left: 20px;
     background-color: rgba(252, 244, 234, 0.95);
-    margin: 2vw;
-
+    margin: 10px;
 }
